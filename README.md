@@ -9,7 +9,7 @@ O modelo foi configurado por padrão para identificar três classes de objetos:
 
 ---
 
-## 🚀 Funcionalidades e Destaques Técnicos
+## 🚀 Funcionalidades e Destaques Técnicos:
 
 * **Coleta de Dados Customizada:** Script automatizado para capturar e balancear frames diretamente da webcam.
 * **Pré-processamento Avançado:** Conversão para tons de cinza, redução espacial para 32x32 pixels e **Equalização de Histograma** para neutralizar variações bruscas de iluminação e sombras.
@@ -19,7 +19,7 @@ O modelo foi configurado por padrão para identificar três classes de objetos:
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto:
 
 ```text
 ├── Imagens/               # Pasta gerada automaticamente com as fotos coletadas
@@ -41,7 +41,7 @@ pip install opencv-python tensorflow scikit-learn matplotlib numpy
 ```
 ---
 
-## 💻 Como Executar o Projeto
+## 💻 Como Executar o Projeto:
 O pipeline do projeto é dividido em 3 etapas sequenciais:
 
 1. Coleta de Imagens (capturar_imagens.py)
@@ -71,7 +71,7 @@ Controles: Mostre os objetos cadastrados na tela. Uma barra de progresso visual 
 
 ---
 
-## 🧠 Arquitetura da Rede Neural (CNN)
+## 🧠 Arquitetura da Rede Neural (CNN):
 O modelo foi construído utilizando a API Sequential do Keras com a seguinte topologia:
 
 * Camada Convolucional 1 (Conv2D): 32 filtros (3x3), Ativação ReLU. Entrada: (32, 32, 1).
