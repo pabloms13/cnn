@@ -31,6 +31,7 @@ O modelo foi configurado por padrão para identificar três classes de objetos:
 ├── webcam.py              # Script para inferência e HUD em tempo real
 ├── modelo.h5              # Arquivo do modelo treinado (gerado após o treino)
 └── README.md              # Documentação do projeto
+```
 🛠️ Pré-requisitos e Instalação
 Antes de começar, certifique-se de ter o Python 3.8+ instalado. Instale as dependências necessárias utilizando o gerenciador de pacotes pip:
 
